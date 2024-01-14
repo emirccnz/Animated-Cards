@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+.container {
+    z-index: -1;
+    height: auto;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    z-index: 0;
+    background-color: black;
+}
+
+.header h1 {
+    margin-top: 3%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+}
+
+.cardsBox {
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: white;
+    height: 70vh;
+    display: inline-block;
+    width: 10%;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+#card1 {
+    background-image: url(https://media.comicbook.com/2017/06/tokyo-ghoul-anime-1477547440-16d366ea1f605e55e78bcdffe3b09f5e-1004079.jpeg?auto=webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: 70%;
+}
+
+#card2 {
+    background-image: url(https://butwhytho.net/wp-content/uploads/2023/06/Demon-Slayer-Season-3-But-Why-Tho.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: 40.5%;
+
+}
+
+#card3 {
+    background-image: url(https://cdn.kayiprihtim.com/wp-content/uploads/2021/06/Naruto-goz.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: 43%;
+}
+
+#card4 {
+    background-image: url("https://hips.hearstapps.com/vidthumb/images/tokyo-revengers-season-3-64be9ff2ad249.jpg?crop=1xw:0.9971273291925465xh;center,top&resize=1200:*");
+    object-fit: cover;
+    background-size: cover;
+    background-position: 40%;
+}
+
+#card5 {
+    background-image: url("https://gameranx.com/wp-content/uploads/2022/12/Reboot_GANX.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: 32%;
+}
+
+#card6 {
+    background-image: url(https://i.ytimg.com/vi/dvztHditU0I/maxresdefault.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: 45%;
+}

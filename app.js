@@ -21,7 +21,7 @@ function click(e) {
 
 function card1Choosed(findClickedCard, clickedCard) {
     if (findClickedCard == "card1") {
-        clickedCard.style.backgroundImage = "url(https://static.wikia.nocookie.net/tokyoghoul/images/6/68/Season_Two_Box_Set_Cover.png/revision/latest?cb=20160218221525)"
+        clickedCard.style.backgroundImage = "url(https://www.arthipo.com/image/cache/catalog/poster/anime/1898-2381/anime2326-tokyo-ghoul-7-755x1100.webp)"
         clickedCard.style.backgroundPosition = "10%"
         clickedCard.style.backgroundSize = "cover"
     }
